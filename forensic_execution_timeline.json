@@ -1,0 +1,1353 @@
+[
+    {
+        "artifact": "RunMRU (Win+R)",
+        "program": "Run Command: cmd",
+        "run_count": "1+",
+        "active_duration_seconds": "N/A",
+        "timestamp": "Recent Session"
+    },
+    {
+        "artifact": "RunMRU (Win+R)",
+        "program": "Run Command: appdata",
+        "run_count": "1+",
+        "active_duration_seconds": "N/A",
+        "timestamp": "Recent Session"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.VisualStudioCode",
+        "run_count": 3,
+        "active_duration_seconds": 82.4,
+        "timestamp": "2026-09-24 00:42:55"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
+        "run_count": 2,
+        "active_duration_seconds": 789.6,
+        "timestamp": "2026-09-24 00:11:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\SpotifyAB.SpotifyMusic_1.297.270.0_x64__zpdnekdrzrea0\\SpotifyMigrator.exe",
+        "run_count": 2,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-24 00:11:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "electron.app.Antigravity",
+        "run_count": 3,
+        "active_duration_seconds": 5324.5,
+        "timestamp": "2026-09-24 00:04:04"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Antigravity.lnk",
+        "run_count": 3,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-24 00:04:04"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App",
+        "run_count": 1,
+        "active_duration_seconds": 30.9,
+        "timestamp": "2026-09-23 23:22:52"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "run_count": 1,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-23 21:29:30"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Windows PowerShell\\Windows PowerShell.lnk",
+        "run_count": 1,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-23 21:29:30"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "OperaSoftware.OperaGXWebBrowser.1783096419",
+        "run_count": 2,
+        "active_duration_seconds": 4600.7,
+        "timestamp": "2026-09-23 21:20:53"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{9E3995AB-1F9C-4F13-B827-48B24B6C7174}\\TaskBar\\Opera GX tarayıcı.lnk",
+        "run_count": 2,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-23 21:20:53"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.Windows.Explorer",
+        "run_count": 2,
+        "active_duration_seconds": 32.9,
+        "timestamp": "2026-09-23 21:01:02"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{9E3995AB-1F9C-4F13-B827-48B24B6C7174}\\TaskBar\\File Explorer.lnk",
+        "run_count": 2,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-23 21:01:02"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "steam://rungameid/431960",
+        "run_count": 2,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-22 23:40:33"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.ScreenSketch_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-22 22:57:13"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Visual Studio Code\\Visual Studio Code.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-22 22:50:58"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Chrome",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-22 20:24:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Google Chrome.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-22 20:24:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "com.squirrel.Discord.Discord",
+        "run_count": 0,
+        "active_duration_seconds": 272.5,
+        "timestamp": "2026-09-22 17:25:41"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\Discord.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-22 17:25:41"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Valve.Steam.Client",
+        "run_count": 0,
+        "active_duration_seconds": 87.9,
+        "timestamp": "2026-09-22 17:25:40"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\Public\\Desktop\\Steam.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-22 17:25:40"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\cmd.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-21 23:20:08"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\npcap-installer.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-21 23:17:31"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Steam\\Steam.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-21 18:32:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\Opera GX tarayıcı.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-20 02:00:16"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Opera GX tarayıcı.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-18 22:48:48"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.SecHealthUI_8wekyb3d8bbwe!SecHealthUI",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-18 15:16:47"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "MSEdge",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-13 21:20:58"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Microsoft Edge.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-13 21:20:58"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.WindowsNotepad_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-12 21:38:05"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "com.nvidia.nvapp",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-12 01:02:31"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\NVIDIA Corporation\\NVIDIA App.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-12 01:02:31"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Documents\\U3-SDK-3.26.3.4\\Builds\\RPBuild\\Unturned.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-11 17:42:57"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.Copilot_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-11 17:42:52"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\Microsoft.Copilot_1.25121.84.0_x64__8wekyb3d8bbwe\\Copilot.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-11 17:42:52"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "TelegramMessengerLLP.TelegramDesktop_t4vj0pshhgkwm!Telegram.TelegramDesktop.Store",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-10 17:46:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\TelegramMessengerLLP.TelegramDesktop_7.1.4.0_x64__t4vj0pshhgkwm\\Telegram.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-10 17:46:20"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-10 06:20:12"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-10 00:29:54"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Brave",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-09 13:08:31"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Brave.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-09 13:08:31"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "FileZilla.Client.AppID",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-09 12:07:49"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\FileZilla FTP Client\\FileZilla.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-09 12:07:49"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\Tor Browser\\Browser\\firefox.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-09 01:00:16"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\Tor Browser\\Tor Browser.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-09 01:00:16"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WinRAR\\WinRAR.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-08 23:37:40"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Cheat Engine\\Cheat Engine.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-07 21:56:29"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Cheat Engine\\Cheat Engine.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-07 21:56:29"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-07 19:23:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Epic Games Launcher.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-07 19:23:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.Windows.Photos_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-06 16:41:24"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\AppData\\Roaming\\.minecraft\\TLauncher.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-04 23:22:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\TLauncher\\TLauncher.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-04 23:22:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\File Explorer.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-04 01:38:20"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Riot Games\\Riot Client\\RiotClientServices.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-03 15:48:29"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\esb\\EscapeTheBackrooms_Trainer.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-02 22:34:38"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Discord.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-02 21:54:32"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\esb\\thirdparty\\imgui\\examples\\example_win32_directx11\\Release\\example_win32_directx11.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-02 21:42:02"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "VisualStudio.cc72de2a",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-02 21:37:11"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\esb\\ESB_Debug.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-02 21:31:05"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Ubisoft.UPC.MainProcess",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-01 21:50:22"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.AutoGenerated.{B90C4CF3-5116-AEB7-2542-2440C94B666D}",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-01 21:30:39"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "CitizenFX.FiveM.Client",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-01 16:26:42"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-31 21:53:42"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.Paint_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-31 21:53:09"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\7-Zip\\7zFM.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-30 20:43:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\7-Zip\\7-Zip File Manager.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-30 20:43:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Cloudflare\\Cloudflare WARP\\Cloudflare WARP.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-30 20:23:45"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Cloudflare WARP\\Cloudflare One Client.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-30 20:23:45"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "DuckDuckGo.DesktopBrowser_ya2fgkz3nks94!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-30 20:20:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\DuckDuckGo.DesktopBrowser_0.170.7.0_x64__ya2fgkz3nks94\\WindowsBrowser\\DuckDuckGo.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-30 20:20:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\dripmamba acc gen\\tor_bin\\tor\\tor.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-30 20:16:36"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\UEDumper-1.11.1\\x64\\Release\\UEDumper.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-30 17:07:40"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\Public\\Desktop\\Google Chrome.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-27 20:36:33"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\FiveM.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-26 21:10:12"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\System Tools\\Command Prompt.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 19:44:59"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\IDA Professional 9.4\\ida.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 18:57:27"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\IDA Professional 9.4\\IDA Professional 9.4.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 18:57:27"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\gelibolu bvuklasurn\\Trainer_Build\\GallipoliTrainer.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 18:20:10"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "com.rodroid.il2cppdumper",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 17:44:56"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Rodroid IL2CPP Dumper.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 17:44:56"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\unitydump\\Il2CppDumper.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 17:39:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Rockstar Games\\Launcher\\LauncherPatcher.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 01:57:42"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Rockstar Games\\Rockstar Games Launcher.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 01:57:42"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "steam://rungameid/271590",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 01:53:11"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\\Steam\\steamapps\\common\\Grand Theft Auto V\\GTA5.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 01:53:09"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\GTA V (Modlu).lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-25 01:53:09"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-24 18:15:27"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.AutoGenerated.{D2872DFE-4EC4-CD29-E597-62FB105E7FDA}",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-24 18:14:06"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Nmap\\Nmap - Zenmap GUI.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-24 18:14:06"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\prox\\prox.bat",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-24 17:34:09"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\tiktok_live_studio_downloader-v0.0.1-wid-98ZwHSEJg2J.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-18 20:34:42"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\SpotifyAB.SpotifyMusic_1.295.452.0_x64__zpdnekdrzrea0\\SpotifyMigrator.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-18 19:09:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.AutoGenerated.{A699BEEE-4340-A102-83DE-99F19B8D839B}",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-18 15:56:07"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\FiveM.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-17 16:37:10"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\FiveM.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-17 16:36:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\AppData\\Local\\FiveM\\FiveM.app\\plugins\\GTA5.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-17 16:08:13"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\ReShade_Setup_6.8.0_Addon.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-17 16:07:51"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.VisualStudio.Installer",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 23:13:56"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Visual Studio Installer.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 23:13:56"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "steam://rungameid/945360",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 22:22:25"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\unitydump\\Il2CppDumper-x86.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 22:16:16"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "com.unity3d.unityhub",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 17:40:56"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Unity Hub.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 17:40:56"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\assets ripper\\AssetRipper.GUI.Free.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 17:39:15"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\sb\\OpenBullet\\bin\\Release\\SilverBullet.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 17:03:23"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\NVIDIA Corporation\\NVIDIA Broadcast\\NVIDIA Broadcast.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 02:32:22"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\NVIDIA Corporation\\NVIDIA Broadcast.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 02:32:22"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\Microsoft.WindowsNotepad_11.2606.15.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-16 01:12:50"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-14 17:37:26"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.Windows.AdministrativeTools",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-08 16:30:23"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\AppData\\Local\\Wondershare\\Wondershare Filmora\\Wondershare Filmora Launcher.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-03 20:32:47"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\SpotifyAB.SpotifyMusic_1.293.667.0_x64__zpdnekdrzrea0\\SpotifyMigrator.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-03 13:19:50"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Razer.Synapse.4",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-03 02:00:31"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\Razer\\Razer Synapse.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-03 02:00:31"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!WebExperienceHost",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-03 01:59:34"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\SplitWire-Turkey\\SplitWire-Turkey.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-02 00:42:50"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\SplitWire-Turkey\\SplitWire-Turkey.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-02 00:42:50"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\\Steam\\steamapps\\common\\Half-Life\\hl.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-01 15:25:12"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "steam://rungameid/70",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-01 15:25:05"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\\Steam\\steamapps\\common\\Half-Life\\hlds.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-08-01 15:12:16"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\MoonClient-v4-master\\MoonClient_Clean_Release\\MoonClientLoader.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-31 11:45:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\Public\\Desktop\\SplitWire-Turkey.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-30 16:57:15"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.AutoGenerated.{239438DC-9302-1495-B3B5-5DF86F1EBD44}",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-30 10:46:43"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\GoodbyeDPI Baslat.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-30 10:46:43"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "steam://rungameid/252490",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-29 16:07:33"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\GoodbyeDPı\\discord_fix_menu.cmd",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-29 15:33:19"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "steam://rungameid/1905180",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-20 23:50:20"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\keyhunter-master\\target\\release\\keyhunter.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-19 19:02:47"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\\Steam\\steamapps\\common\\Rust\\Rust.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-18 06:01:09"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Steam Game Idler\\uninstall.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-17 20:44:58"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Discord Inc\\Discord.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-16 02:49:15"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\palm-gen\\start.bat",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-12 06:26:39"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\TBH-Trainer.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-11 22:23:17"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "steam://rungameid/1144200",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-09 21:06:06"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.GamingApp_8wekyb3d8bbwe!Microsoft.Xbox.App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-08 05:30:22"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\Microsoft.GamingApp_2606.1001.29.0_x64__8wekyb3d8bbwe\\XboxPcAppCE.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-08 05:30:22"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.GamingApp_8wekyb3d8bbwe!Microsoft.Xbox.AppL",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-08 05:30:22"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.GamingServices_8wekyb3d8bbwe!Microsoft.GamingServicesFT",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-08 04:44:49"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\robloxoyun\\rojo_baslat.bat",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 23:46:18"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\AppData\\Local\\Roblox\\Versions\\version-8b44d8f2067642d8\\RobloxStudioBeta.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 23:43:13"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\Roblox\\Roblox Studio.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 23:43:13"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\bypass\\goosegooseEAC_Bypass.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 23:31:24"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\CheatEngine77.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 23:23:50"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\bypass\\PUBG-Bypass.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 23:20:22"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "VisualStudio.51f8b93a",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 23:09:05"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\UEDumper-1.11.1\\build.bat",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 23:08:37"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\mmc.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 18:04:19"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\\Steam\\Steam.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 17:36:16"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\Roblox Studio.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 04:04:56"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Image-Line\\FL Studio 2025\\uninstall.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 02:18:39"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Image-Line\\FL Studio 2025\\FL64.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 02:15:13"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\BattlEyeBypass.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-07 01:58:16"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\openbullet-1.2.2-707\\OpenBullet\\bin\\Release\\OpenBullet.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-05 23:28:07"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\bloodstrike\\x64\\Release\\external-base.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-05 18:24:03"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-05 01:37:32"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\\Microsoft\\Edge\\Application\\pwahelper.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-05 01:37:32"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\meccha cam\\PenguinHotel.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 22:20:54"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\cs2\\cs2 project\\x64\\Release\\ploxiedcs2.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 20:42:07"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\cs2\\5bdkq1.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 05:56:55"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\cs2\\x8RD6N.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 05:54:55"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\cs2\\QQabDG.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 05:49:01"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\cs2\\cZMKFT.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 05:40:47"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\cs2\\yaprak.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 05:15:28"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "com.google.antigravity",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 05:12:18"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\Antigravity.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 05:12:18"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\VisualStudioSetup.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 04:59:13"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\cs2-dumper.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 04:50:52"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "steam://rungameid/3199170",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 04:20:11"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\VSCodeUserSetup-x64-1.127.0.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 03:49:52"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\Il2CppDumper-6.7.46\\Il2CppDumper.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 03:43:17"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\\Steam\\steamapps\\common\\Data Center\\Data Center.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 02:09:26"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\dtaa center\\Data Center.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 01:57:24"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\ida\\keygen\\ida94kg(C++).exe\\ida94kg(c++).exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 01:17:49"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\ida\\keygen\\default keygen\\keygen.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 01:17:22"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\schedule 1\\Schedule I.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 01:03:21"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\ida\\ida-pro_94_x64win.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 00:57:33"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Desktop\\ida\\keygen_clean.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 00:51:42"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{F38BF404-1D43-42F2-9305-67DE0B28FC23}\\py.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-04 00:48:33"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Claude_pzs8sxrjxfjjc!Claude",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 21:38:04"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\WindowsApps\\Claude_1.18286.0.0_x64__pzs8sxrjxfjjc\\app\\Claude.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 21:38:04"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{9E3995AB-1F9C-4F13-B827-48B24B6C7174}\\TaskBar\\Microsoft Edge.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 20:06:40"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\DiscordSetup.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:44:11"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{6D809377-6AF0-444B-8957-A3773F02200E}\\NVIDIA Corporation\\NVIDIA GeForce Experience\\NVIDIA GeForce Experience.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:33:36"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\\NVIDIA Corporation\\GeForce Experience.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:33:36"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\OperaGXSetup.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:33:12"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "C:\\Users\\prox\\Downloads\\SteamSetup.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:32:33"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "D:\\INSTALL.exe",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:31:51"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.Windows.ControlPanel",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:11:23"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\\System Tools\\Control Panel.lnk",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:11:23"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App",
+        "run_count": 0,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-07-03 19:06:42"
+    }
+]
