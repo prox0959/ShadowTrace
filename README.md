@@ -5,6 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Languages](https://img.shields.io/badge/Language-English%20%7C%20T%C3%BCrk%C3%A7e-00FF41?style=for-the-badge)
 
 **A lightweight Windows program execution forensics & activity timeline extraction tool.**
 
@@ -14,7 +15,7 @@
 
 ## 🔍 What is ShadowTrace?
 
-In Windows incident response and digital forensics (DFIR), investigating whether a suspect executed malicious software (e.g., malware, credential dumpers, or unauthorized apps) is critical. Even if an attacker deletes an executable from the filesystem, Windows maintains silent execution artifacts in the Registry.
+In Windows incident response and digital forensics (DFIR), investigating whether a suspect or malware executed unauthorized software (e.g., credential dumpers, keyloggers, or malicious payloads) is critical. Even if an attacker deletes an executable from the filesystem, Windows maintains silent execution artifacts in the Registry.
 
 **ShadowTrace** extracts and parses two critical Windows execution artifacts:
 1. **UserAssist (`HKCU\...\UserAssist`):**
@@ -28,6 +29,7 @@ ShadowTrace decodes the ROT13 strings, unpacks the 72-byte binary structures, an
 
 ## ✨ Features
 - ⚡ **Zero External Dependencies:** Built entirely using Python standard libraries (`winreg`, `struct`, `codecs`, `datetime`, `json`).
+- 🌐 **Bilingual Support:** Full English (default) and Turkish CLI output options.
 - 🔓 **ROT13 Decryption:** Automatically decodes obfuscated UserAssist registry values.
 - ⏱️ **Timestamp & Duration Decoding:** Translates 64-bit Windows `FILETIME` and microsecond focus times into human-readable timelines.
 - 📋 **DFIR JSON Reporting:** Exports a forensic timeline report (`forensic_execution_timeline.json`) ready for timeline analysis and ingestion into SIEM tools.
@@ -39,28 +41,43 @@ ShadowTrace decodes the ROT13 strings, unpacks the 72-byte binary structures, an
 git clone https://github.com/prox0959/ShadowTrace.git
 cd ShadowTrace
 
-# Run directly (No pip install needed!)
+# Run in English (Default)
 python shadowtrace.py
+
+# Run with Turkish output
+python shadowtrace.py --lang tr
 ```
 
-## 📊 Sample Output
+## 🌐 Language Options
+
+| Argument | Description |
+|---|---|
+| `python shadowtrace.py` | Runs with default **English** DFIR headers and reporting |
+| `python shadowtrace.py --lang en` | Explicitly sets language to **English** |
+| `python shadowtrace.py --lang tr` | Sets language to **Turkish (Türkçe)** |
+
+## 📊 Sample Output (English Default)
 
 ```text
 ===============================================================================================
- [SHADOWTRACE] - WINDOWS PROGRAM CALISTIRMA VE GIZLI KULLANICI AKTIVITE KANITLARI
+ [SHADOWTRACE] - WINDOWS PROGRAM EXECUTION & FORENSIC ARTIFACTS
 ===============================================================================================
-[*] Toplam 193 adet program calistirma izi cozumsuzlendi:
+[*] Decoded a total of 193 program execution forensic artifacts:
 
-#   | Uygulama / Komut                              | Calisma | Odak(sn) | Son Calistirma     
+#   | Application / Command                         | Runs    | Focus(s) | Last Execution (Local)
 -----------------------------------------------------------------------------------------------
 1   | Run Command: cmd                              | 1+      | N/A      | Recent Session     
-2   | Microsoft.VisualStudioCode                    | 3       | 82.4     | 2026-09-24 00:42:55
-3   | SpotifyAB.SpotifyMusic                        | 2       | 789.6    | 2026-09-24 00:11:21
-4   | OperaSoftware.OperaGXWebBrowser               | 2       | 4600.7   | 2026-09-23 21:20:53
-5   | C:\Users\prox\Desktop\npcap-installer.exe     | 0       | 0.0      | 2026-09-21 23:17:31
-...
+2   | Run Command: appdata                          | 1+      | N/A      | Recent Session     
+3   | Microsoft.VisualStudioCode                    | 4       | 141.4    | 2026-09-24 00:58:48
+4   | SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify  | 2       | 800.1    | 2026-09-24 00:11:21
+5   | electron.app.Antigravity                      | 3       | 5433.5   | 2026-09-24 00:04:04
+6   | Microsoft.WindowsCalculator_8wekyb3d8bbwe!App | 1       | 30.9     | 2026-09-23 23:22:52
+7   | OperaSoftware.OperaGXWebBrowser.1783096419    | 2       | 4600.7   | 2026-09-23 21:20:53
+8   | C:\Users\prox\Desktop\npcap-installer.exe     | 0       | 0.0      | 2026-09-21 23:17:31
+... and 158 older records exported to JSON.
 ===============================================================================================
-[+] Tam adli analiz raporu basariyla kaydedildi: forensic_execution_timeline.json
+
+[+] Forensic timeline successfully saved to: forensic_execution_timeline.json
 ```
 
 ## ⚖️ License
