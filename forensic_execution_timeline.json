@@ -16,15 +16,29 @@
     {
         "artifact": "UserAssist",
         "program": "Microsoft.VisualStudioCode",
-        "run_count": 3,
-        "active_duration_seconds": 82.4,
-        "timestamp": "2026-09-24 00:42:55"
+        "run_count": 4,
+        "active_duration_seconds": 141.4,
+        "timestamp": "2026-09-24 00:58:48"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
+        "run_count": 1,
+        "active_duration_seconds": 0.6,
+        "timestamp": "2026-09-24 00:57:56"
+    },
+    {
+        "artifact": "UserAssist",
+        "program": "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\cmd.exe",
+        "run_count": 1,
+        "active_duration_seconds": 0.0,
+        "timestamp": "2026-09-24 00:57:56"
     },
     {
         "artifact": "UserAssist",
         "program": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
         "run_count": 2,
-        "active_duration_seconds": 789.6,
+        "active_duration_seconds": 800.1,
         "timestamp": "2026-09-24 00:11:21"
     },
     {
@@ -38,7 +52,7 @@
         "artifact": "UserAssist",
         "program": "electron.app.Antigravity",
         "run_count": 3,
-        "active_duration_seconds": 5324.5,
+        "active_duration_seconds": 5433.5,
         "timestamp": "2026-09-24 00:04:04"
     },
     {
@@ -87,7 +101,7 @@
         "artifact": "UserAssist",
         "program": "Microsoft.Windows.Explorer",
         "run_count": 2,
-        "active_duration_seconds": 32.9,
+        "active_duration_seconds": 50.2,
         "timestamp": "2026-09-23 21:01:02"
     },
     {
@@ -159,13 +173,6 @@
         "run_count": 0,
         "active_duration_seconds": 0.0,
         "timestamp": "2026-09-22 17:25:40"
-    },
-    {
-        "artifact": "UserAssist",
-        "program": "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\cmd.exe",
-        "run_count": 0,
-        "active_duration_seconds": 0.0,
-        "timestamp": "2026-09-21 23:20:08"
     },
     {
         "artifact": "UserAssist",
@@ -621,13 +628,6 @@
         "run_count": 0,
         "active_duration_seconds": 0.0,
         "timestamp": "2026-08-25 01:53:09"
-    },
-    {
-        "artifact": "UserAssist",
-        "program": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe!App",
-        "run_count": 0,
-        "active_duration_seconds": 0.0,
-        "timestamp": "2026-08-24 18:15:27"
     },
     {
         "artifact": "UserAssist",

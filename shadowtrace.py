@@ -1,6 +1,5 @@
-# ShadowTrace - Windows Program Calistirma ve Kullanici Aktivitesi Adli Bilisim Araci
-# TR: Windows Kayit Defteri'ndeki gizli UserAssist (ROT13 sifreli) ve RunMRU (Calistir gecmisi)
-# izlerini cozumleyerek hangi programin ne zaman, kac kez ve ne kadar sure kullanildigini tespit eder.
+# ShadowTrace - Windows Program Execution & User Activity Forensics Tool
+# TR: Windows Kayit Defteri'ndeki gizli UserAssist (ROT13) ve RunMRU (Calistir) izlerini cozumler.
 
 import sys
 import os
@@ -9,40 +8,68 @@ import struct
 import codecs
 import datetime
 import json
+import argparse
 
-# Windows Turkce konsollarinda karakter ve emoji hatalarini onlemek icin UTF-8 yapilandirmasi
+# UTF-8 console output setup for Windows
 if sys.platform == "win32":
     try:
         sys.stdout.reconfigure(encoding='utf-8')
     except Exception:
         pass
 
-def filetime_to_dt(ft):
+# Multilingual UI Dictionary (EN / TR)
+STRINGS = {
+    "en": {
+        "title": " [SHADOWTRACE] - WINDOWS PROGRAM EXECUTION & FORENSIC ARTIFACTS",
+        "no_records": "[-] No execution artifacts found.",
+        "found_prefix": "[*] Decoded a total of",
+        "found_suffix": "program execution forensic artifacts:\n",
+        "col_num": "#",
+        "col_prog": "Application / Command",
+        "col_runs": "Runs",
+        "col_focus": "Focus(s)",
+        "col_last": "Last Execution (Local)",
+        "more_records": "... and {count} older records exported to JSON.",
+        "saved_report": "[+] Forensic timeline successfully saved to:",
+        "unknown_time": "Unknown / Never",
+        "invalid_time": "Invalid Time",
+        "recent_session": "Recent Session"
+    },
+    "tr": {
+        "title": " [SHADOWTRACE] - WINDOWS PROGRAM CALISTIRMA VE GIZLI KULLANICI AKTIVITE KANITLARI",
+        "no_records": "[-] Analiz edilecek calistirma kaniti bulunamadi.",
+        "found_prefix": "[*] Toplam",
+        "found_suffix": "adet program calistirma izi cozumsuzlendi:\n",
+        "col_num": "#",
+        "col_prog": "Uygulama / Komut",
+        "col_runs": "Calisma",
+        "col_focus": "Odak(sn)",
+        "col_last": "Son Calistirma (Yerel)",
+        "more_records": "... ve {count} adet daha eski kayit JSON raporuna aktarildi.",
+        "saved_report": "[+] Tam adli analiz raporu basariyla kaydedildi:",
+        "unknown_time": "Bilinmiyor / Asla",
+        "invalid_time": "Gecersiz Zaman",
+        "recent_session": "Guncel Oturum"
+    }
+}
+
+def filetime_to_dt(ft, lang="en"):
     """
-    Windows 64-bit FILETIME (1 Ocak 1601'den bu yana 100-nanosaniyelik adimlar)
-    yapilarini okunabilir standart tarih formatina cevirir.
+    Translates Windows 64-bit FILETIME (100-ns intervals since Jan 1, 1601) to ISO datetime.
     """
     if ft == 0:
-        return "Bilinmiyor / Asla"
+        return STRINGS[lang]["unknown_time"]
     try:
-        # 116444736000000000 = 1601 ile 1970 (Unix Epoch) arasindaki 100-ns adim sayisi
         epoch = (ft - 116444736000000000) / 10000000
         return datetime.datetime.fromtimestamp(epoch).strftime('%Y-%m-%d %H:%M:%S')
     except Exception:
-        return "Gecersiz Zaman"
+        return STRINGS[lang]["invalid_time"]
 
-def parse_userassist():
+def parse_userassist(lang="en"):
     r"""
-    UserAssist Artefakti (Adli Kanit):
-    Windows Explorer, kullanicinin baslattigi uygulamalari (Start Menu, Explorer, Masaustu)
-    HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist
-    altinda ROT13 (Sezar sifrelemesi varyanti) ile gizleyerek kaydeder.
-    
-    Veri yapisi (72 bayt binary):
-    - Offset 4: Calistirilma Sayisi (Run Count - DWORD uint32)
-    - Offset 8: Odaklanma Sayisi (Focus Count - DWORD uint32)
-    - Offset 12: Odaklanma Suresi (Focus Time - DWORD uint32 milisaniye)
-    - Offset 60: Son Calistirilma Zamani (Last Execution Time - FILETIME uint64)
+    UserAssist Artifact Parser:
+    Windows Explorer records launched applications under HKCU\...\UserAssist using ROT13.
+    Extracts Run Count (DWORD), Focus Duration (DWORD ms), and Last Execution FILETIME.
     """
     evidence = []
     base_path = r"Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist"
@@ -68,25 +95,21 @@ def parse_userassist():
         for v in range(num_values):
             try:
                 raw_name, raw_data, _ = winreg.EnumValue(count_key, v)
-                
-                # ROT13 cozumleme (Orn: 'P:\Jvaqbjf\...' -> 'C:\Windows\...')
                 decoded_name = codecs.decode(raw_name, 'rot_13')
                 
-                # Sistem oturum ve arayuz kayitlarini filtrele
+                # Filter out session metadata
                 if "UEME_CTLSESSION" in decoded_name or "UEME_CTLCUACount" in decoded_name:
                     continue
                     
-                # 72-baytlik Windows 7-11 binary yapisini parse et
                 if len(raw_data) >= 68:
                     run_count = struct.unpack_from('<I', raw_data, 4)[0]
                     focus_count = struct.unpack_from('<I', raw_data, 8)[0]
                     focus_time_ms = struct.unpack_from('<I', raw_data, 12)[0]
                     filetime = struct.unpack_from('<Q', raw_data, 60)[0]
                     
-                    last_exec = filetime_to_dt(filetime)
+                    last_exec = filetime_to_dt(filetime, lang=lang)
                     
-                    # Sadece en az 1 kez calistirilmis veya gecerli tarihi olanlari al
-                    if last_exec != "Bilinmiyor / Asla":
+                    if last_exec not in [STRINGS["en"]["unknown_time"], STRINGS["tr"]["unknown_time"]]:
                         evidence.append({
                             "artifact": "UserAssist",
                             "program": decoded_name,
@@ -96,16 +119,16 @@ def parse_userassist():
                         })
             except Exception:
                 continue
+                
         winreg.CloseKey(count_key)
                 
     winreg.CloseKey(ua_key)
     return evidence
 
-def parse_run_mru():
+def parse_run_mru(lang="en"):
     r"""
-    RunMRU Artefakti:
-    Kullanicinin Windows + R (Calistir) penceresine yazdigi son komutlari
-    ve calistirma siralamasini (MRUList) depolar.
+    RunMRU Artifact Parser:
+    Tracks commands executed via Windows + R (Run prompt) and their MRU ordering.
     """
     mru_evidence = []
     run_path = r"Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU"
@@ -125,19 +148,18 @@ def parse_run_mru():
             if name == "MRUList":
                 mru_list = val
             else:
-                # '\1' sonlandirici karakterini temizle
                 cleaned_cmd = val.split('\\1')[0] if isinstance(val, str) else str(val)
                 entries[name] = cleaned_cmd
                 
-        # MRU siralamasina gore ekle (en son calistirilan en onde)
         for letter in mru_list:
             if letter in entries:
+                prefix = "Run Komutu:" if lang == "tr" else "Run Command:"
                 mru_evidence.append({
                     "artifact": "RunMRU (Win+R)",
-                    "program": f"Run Command: {entries[letter]}",
+                    "program": f"{prefix} {entries[letter]}",
                     "run_count": "1+",
                     "active_duration_seconds": "N/A",
-                    "timestamp": "Recent Session"
+                    "timestamp": STRINGS[lang]["recent_session"]
                 })
         winreg.CloseKey(key)
     except Exception:
@@ -145,43 +167,49 @@ def parse_run_mru():
         
     return mru_evidence
 
-def print_timeline_report(records):
+def print_timeline_report(records, lang="en"):
     """
-    Toplanan tum calistirma kanitlarini zamana gore siralayip DFIR tablosu halinde sunar.
+    Outputs the execution timeline in a DFIR tabular report.
     """
+    t = STRINGS[lang]
     print("\n" + "="*95)
-    print(" [SHADOWTRACE] - WINDOWS PROGRAM CALISTIRMA VE GIZLI KULLANICI AKTIVITE KANITLARI")
+    print(t["title"])
     print("="*95)
     
     if not records:
-        print("[-] Analiz edilecek calistirma kaniti bulunamadi.")
+        print(t["no_records"])
         return
         
-    print(f"[*] Toplam {len(records)} adet program calistirma izi cozumsuzlendi:\n")
-    print(f"{'#':<3} | {'Uygulama / Komut':<45} | {'Calisma':<7} | {'Odak(sn)':<8} | {'Son Calistirma':<19}")
+    print(f"{t['found_prefix']} {len(records)} {t['found_suffix']}")
+    print(f"{t['col_num']:<3} | {t['col_prog']:<45} | {t['col_runs']:<7} | {t['col_focus']:<8} | {t['col_last']:<19}")
     print("-" * 95)
     
-    for idx, r in enumerate(records[:35], 1): # Konsolu bogmamak icin ilk 35 en guncel kayit
+    for idx, r in enumerate(records[:35], 1):
         prog_name = (r['program'][:42] + '...') if len(r['program']) > 45 else r['program']
         print(f"{idx:<3} | {prog_name:<45} | {str(r['run_count']):<7} | {str(r['active_duration_seconds']):<8} | {r['timestamp']:<19}")
         
     if len(records) > 35:
-        print(f"... ve {len(records) - 35} adet daha eski kayit JSON raporuna aktarildi.")
+        print(t["more_records"].format(count=len(records) - 35))
         
     print("="*95)
     
     report_file = "forensic_execution_timeline.json"
     with open(report_file, "w", encoding="utf-8") as f:
         json.dump(records, f, indent=4, ensure_ascii=False)
-    print(f"\n[+] Tam adli analiz raporu basariyla kaydedildi: {report_file}\n")
+    print(f"\n{t['saved_report']} {report_file}\n")
 
-if __name__ == "__main__":
-    ua_records = parse_userassist()
-    mru_records = parse_run_mru()
+def main():
+    parser = argparse.ArgumentParser(description="ShadowTrace - Windows Execution Forensics Analyzer")
+    parser.add_argument("-l", "--lang", choices=["en", "tr"], default="en", help="Language for output (en: English, tr: Turkish)")
+    args = parser.parse_args()
+    
+    ua_records = parse_userassist(lang=args.lang)
+    mru_records = parse_run_mru(lang=args.lang)
     
     all_records = ua_records + mru_records
-    
-    # Tarihe gore en yeniden eskiye sirala (Bilinmeyenleri sona at)
     all_records.sort(key=lambda x: x["timestamp"], reverse=True)
     
-    print_timeline_report(all_records)
+    print_timeline_report(all_records, lang=args.lang)
+
+if __name__ == "__main__":
+    main()
