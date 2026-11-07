@@ -109,7 +109,13 @@ def parse_userassist(lang="en"):
                     
                     last_exec = filetime_to_dt(filetime, lang=lang)
                     
-                    if last_exec not in [STRINGS["en"]["unknown_time"], STRINGS["tr"]["unknown_time"]]:
+                    invalid_vals = {
+                        STRINGS["en"]["unknown_time"],
+                        STRINGS["tr"]["unknown_time"],
+                        STRINGS["en"]["invalid_time"],
+                        STRINGS["tr"]["invalid_time"],
+                    }
+                    if last_exec not in invalid_vals:
                         evidence.append({
                             "artifact": "UserAssist",
                             "program": decoded_name,
